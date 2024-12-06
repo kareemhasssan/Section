@@ -1,0 +1,92 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background: linear-gradient(to right, #af8a57, #ac8375);
+    color: #333;
+  }
+
+  /* تنسيق العنوان الرئيسي */
+  h1 {
+    font-size: 2.5rem;
+    color: #ff6f61;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+    margin: 20px 0;
+  }
+
+  /* تنسيق النصوص */
+  p {
+    font-size: 1.2rem;
+    line-height: 1.8;
+    margin: 20px;
+    text-align: center;
+  }
+
+  h2 {
+    font-size: 1.8rem;
+    color: #444;
+    margin-bottom: 10px;
+  }
+
+  /* تصميم الصورة */
+  img {
+    border-radius: 15px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease;
+  }
+
+  img:hover {
+    transform: scale(1.05);
+  }
+
+  /* تنسيق العناصر */
+  center {
+    padding: 20px;
+    max-width: 600px;
+    margin: 0 auto;
+    background: #fff;
+    border-radius: 15px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+  }
+
+
+  .moon-button {
+    background: #ff6f61;
+    color: #fff;
+    font-size: 1.5rem;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: background 0.3s ease, transform 0.2s ease;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+  }
+
+  .moon-button:hover {
+    background: #ff8a80;
+    transform: scale(1.1);
+  }
+
+  .moon-button:active {
+    transform: scale(0.95);
+  }
+
+  /* تصميم استجابة الموقع */
+  @media (max-width: 768px) {
+    h1 {
+      font-size: 2rem;
+    }
+
+    h2 {
+      font-size: 1.5rem;
+    }
+
+    p {
+      font-size: 1rem;
+    }
+
+    img {
+      width: 100%;
+    }
+  }
