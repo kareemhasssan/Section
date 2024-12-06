@@ -73,20 +73,37 @@ body {
   }
 
   /* تصميم استجابة الموقع */
-  @media (max-width: 768px) {
-    h1 {
-      font-size: 2rem;
+  @media (max-width: 480px) {
+    body {
+      padding: 20px;
     }
 
-    h2 {
+    .moon-button {
+      font-size: 1.2rem;
+      padding: 10px 20px;
+    }
+  }
+
+  /* الميديا كويري للشاشات الصغيرة (بين 481px و768px) */
+  @media (min-width: 481px) and (max-width: 768px) {
+    .moon-button {
+      font-size: 1.3rem;
+      padding: 12px 25px;
+    }
+  }
+
+  /* الميديا كويري للشاشات المتوسطة (بين 769px و1024px) */
+  @media (min-width: 769px) and (max-width: 1024px) {
+    .moon-button {
+      font-size: 1.4rem;
+      padding: 15px 28px;
+    }
+  }
+
+  /* الميديا كويري للشاشات الكبيرة جدًا (أكثر من 1024px) */
+  @media (min-width: 1025px) {
+    .moon-button {
       font-size: 1.5rem;
-    }
-
-    p {
-      font-size: 1rem;
-    }
-
-    img {
-      width: 100%;
+      padding: 15px 30px;
     }
   }
